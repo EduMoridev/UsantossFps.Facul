@@ -9,7 +9,7 @@ para a organização **FRAMELAB — Otimização de Performance para Jogos**.
 
 | Nome completo | RGM | Usuário GitHub |
 |---|---|---|
-| [Eduardo Silva Morishita] | [RGM 1 ] | [https://github.com/EduMoridev] |
+| [Eduardo Silva Morishita] | [48501883 ] | [https://github.com/EduMoridev] |
 | [Vinicius Santos Conceição] | [47451530 ] | [https://github.com/VinnySantosDev] |
 | [Bruna Soares De Almeida] | [47552158 ] | [https://github.com/BrunaAlmeida01] |
 | [Vinicius Henrique Silva Ferreira] | [47449438 ] | [https://github.com/VinnyzScript] |
