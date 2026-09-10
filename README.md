@@ -83,18 +83,26 @@ páginas, e o que o grupo pretende ajustar na Entrega 2.]
 ## Estrutura do repositório
 
 ```
-index.html            Página inicial
-sobre.html             Quem faz (institucional)
-servicos.html          Lista de serviços
-planos.html            Planos e preços
-resultados.html        Cases de antes/depois (inclui vídeo)
-depoimentos.html       Depoimentos de clientes (inclui áudio)
-como-funciona.html     Processo em 5 etapas (inclui vídeo)
-faq.html                Perguntas frequentes (com <details>/<summary>)
-contato.html            Formulário de contato com validação HTML5
-orcamento.html          Formulário de pedido de orçamento com validação HTML5
-README.md               Este arquivo
+index.html                     Página inicial
+paginas/
+  sobre.html                   Quem faz (institucional)
+  servicos.html                Lista de serviços
+  planos.html                  Planos e preços
+  resultados.html               Cases de antes/depois (inclui vídeo)
+  depoimentos.html              Depoimentos de clientes (inclui áudio)
+  como-funciona.html            Processo em 5 etapas (inclui vídeo)
+  faq.html                      Perguntas frequentes (com <details>/<summary>)
+  contato.html                  Formulário de contato com validação HTML5
+  orcamento.html                Formulário de pedido de orçamento com validação HTML5
+README.md                      Este arquivo
 ```
+
+A página inicial (`index.html`) fica na raiz do repositório; as demais
+páginas ficam agrupadas na pasta `paginas/`. Os links do menu em
+`index.html` apontam para `paginas/<arquivo>.html`, e os links de volta
+para a página inicial dentro de `paginas/` apontam para `../index.html`.
+Os links entre páginas dentro de `paginas/` continuam relativos entre si
+(ex.: `sobre.html`, `contato.html`).
 
 ## Como rodar localmente
 
