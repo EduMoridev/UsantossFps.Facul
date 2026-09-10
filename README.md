@@ -43,7 +43,7 @@ organização, ainda sem estilização visual (CSS será adicionado na Entrega 2
 
 **Formato da entrevista:** [Google Meet]
 **Data:** [10/09/2026]
-**Responsável entrevistado:** [x Santos / CEO | Dono]
+**Responsável entrevistado:** [ Nicolas Santos Marcelino / CEO|Dono ]
 
 **Comprovação:**
 
