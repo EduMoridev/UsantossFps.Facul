@@ -9,8 +9,12 @@ para a organização **FRAMELAB — Otimização de Performance para Jogos**.
 
 | Nome completo | RGM | Usuário GitHub |
 |---|---|---|
-| [NOME COMPLETO 1] | [RGM 1] | [@usuario1] |
-| [NOME COMPLETO 2] | [RGM 2] | [@usuario2] |
+| [Eduardo Silva Morishita] | [RGM 1 ] | [https://github.com/EduMoridev] |
+| [Vinicius Santos Conceição] | [47451530 ] | [https://github.com/VinnySantosDev] |
+| [Bruna Soares De Almeida] | [47552158 ] | [https://github.com/BrunaAlmeida01] |
+| [Vinicius Henrique Silva Ferreira] | [47449438 ] | [https://github.com/VinnyzScript] |
+| [Jorge Gabriel Cordeiro do Nascimento] | [48097501 ] | [https://github.com/EGROJ-dev] |
+
 
 > Preencher com os dados reais de todos os integrantes antes da entrega.
 
@@ -21,116 +25,57 @@ para a organização **FRAMELAB — Otimização de Performance para Jogos**.
 - **Site hospedado:** [COLAR AQUI o link do GitHub Pages ou Netlify após publicar]
 - **Validação W3C:** todas as 10 páginas foram checadas em https://validator.w3.org/
   (opção "Validate by File Upload" ou "Validate by Direct Input").
-  [COLAR AQUI um print ou link do resultado "Document checking completed. No errors
-  or warnings to show." para cada página, ou pelo menos para a página inicial.]
-
-Para validar localmente antes de subir para o W3C:
-1. Acesse https://validator.w3.org/#validate_by_upload
-2. Envie cada arquivo `.html` (index, sobre, servicos, planos, resultados,
-   depoimentos, como-funciona, faq, contato, orcamento)
-3. Corrija qualquer erro apontado antes da entrega final
+  ![alt text](image.png)
 
 ---
 
 ## 3. Introdução
 
-A FRAMELAB é uma organização que presta serviço de otimização remota de
+A UsantossFps é uma organização que presta serviço de otimização remota de
 computadores para jogos: ajustes de sistema operacional, drivers, BIOS e rede
 para aumentar FPS e reduzir latência, sem necessidade de troca de hardware.
 Esta Entrega 1 corresponde à fundação em HTML do site institucional da
 organização, ainda sem estilização visual (CSS será adicionado na Entrega 2).
 
-[EXPANDIR: contar brevemente a história/contexto real da organização —
-quando começou, que problema resolve, para quem atende.]
-
 ---
 
 ## 4. Contato com o responsável
 
-**Formato da entrevista:** [presencial / Zoom / Google Meet]
-**Data:** [DD/MM/AAAA]
-**Responsável entrevistado:** [NOME e CARGO/FUNÇÃO na organização]
+**Formato da entrevista:** [Google Meet]
+**Data:** [10/09/2026]
+**Responsável entrevistado:** [x Santos / CEO | Dono]
 
 **Comprovação:**
 
-[INSERIR AQUI a foto/print que comprove a entrevista — por exemplo, um
-print da chamada de Zoom/Meet com data e horário visíveis, ou uma foto do
-encontro presencial. Adicionar o arquivo de imagem neste repositório
-(ex.: `docs/entrevista.png`) e referenciá-lo aqui com
-`![Entrevista com o responsável](docs/entrevista.png)`.]
+Print
 
 **Relato da entrevista:**
 
-[DESCREVER o que foi conversado: como a organização começou, quais são os
-principais desafios do negócio hoje, o que o responsável espera do site,
-quais informações ele considerou mais importantes de estarem no site.
-Mínimo recomendado: um parágrafo.]
-
-> Conversas apenas por WhatsApp/Discord não são aceitas como comprovação —
-> é necessário áudio/vídeo (Zoom, Meet) ou encontro presencial.
+Foi conversado varias coisas como preço do site, como ele queria, features, nivel de detalhes como scroll effect e glass effect, etc.
 
 ---
 
 ## 5. Conclusão
 
-[ESCREVER a reflexão do grupo sobre os aprendizados desta etapa: o que foi
+reflexão do grupo sobre os aprendizados desta etapa: o que foi
 mais difícil em estruturar o conteúdo apenas com HTML semântico (sem CSS),
 o que a entrevista com o responsável mudou na forma de organizar as
-páginas, e o que o grupo pretende ajustar na Entrega 2.]
+páginas, e o que o grupo pretende ajustar na Entrega 2.
 
 ---
 
 ## Estrutura do repositório
 
 ```
-index.html                     Página inicial
-paginas/
-  sobre.html                   Quem faz (institucional)
-  servicos.html                Lista de serviços
-  planos.html                  Planos e preços
-  resultados.html               Cases de antes/depois (inclui vídeo)
-  depoimentos.html              Depoimentos de clientes (inclui áudio)
-  como-funciona.html            Processo em 5 etapas (inclui vídeo)
-  faq.html                      Perguntas frequentes (com <details>/<summary>)
-  contato.html                  Formulário de contato com validação HTML5
-  orcamento.html                Formulário de pedido de orçamento com validação HTML5
-README.md                      Este arquivo
+index.html            Página inicial
+sobre.html             Quem faz (institucional)
+servicos.html          Lista de serviços
+planos.html            Planos e preços
+resultados.html        Cases de antes/depois (inclui vídeo)
+depoimentos.html       Depoimentos de clientes (inclui áudio)
+como-funciona.html     Processo em 5 etapas (inclui vídeo)
+faq.html                Perguntas frequentes (com <details>/<summary>)
+contato.html            Formulário de contato com validação HTML5
+orcamento.html          Formulário de pedido de orçamento com validação HTML5
+README.md               Este arquivo
 ```
-
-A página inicial (`index.html`) fica na raiz do repositório; as demais
-páginas ficam agrupadas na pasta `paginas/`. Os links do menu em
-`index.html` apontam para `paginas/<arquivo>.html`, e os links de volta
-para a página inicial dentro de `paginas/` apontam para `../index.html`.
-Os links entre páginas dentro de `paginas/` continuam relativos entre si
-(ex.: `sobre.html`, `contato.html`).
-
-## Como rodar localmente
-
-Não há build nem dependências — é HTML puro. Basta abrir `index.html`
-diretamente no navegador, ou servir a pasta com qualquer servidor estático
-(ex.: extensão "Live Server" do VS Code).
-
-## Como publicar no GitHub Pages
-
-1. Suba os arquivos para um repositório público no GitHub.
-2. Vá em **Settings → Pages**.
-3. Em "Branch", selecione `main` e a pasta `/ (root)`.
-4. Salve e aguarde alguns minutos — o link aparecerá na própria página de Pages.
-5. Cole o link no topo deste README, na seção 2.
-
-## Requisitos atendidos nesta entrega
-
-- [x] 10 páginas HTML interligadas: index, contato, orçamento + 7 páginas de
-      conteúdo (sobre, serviços, planos, resultados, depoimentos,
-      como-funciona, faq)
-- [x] Estrutura semântica em todas as páginas: `header`, `nav`, `main`,
-      `section`, `article`, `footer` (e complementarmente `figure`,
-      `table`, `address`, `details`/`summary`, `time`, `data`)
-- [x] Formulário de contato e formulário de orçamento com validação nativa
-      HTML5 (`required`, `pattern`, `type="email"`, `type="tel"`,
-      `type="number"`, `minlength`/`maxlength`)
-- [x] Recursos de áudio (`depoimentos.html`) e vídeo (`resultados.html` e
-      `como-funciona.html`)
-- [ ] Validação W3C sem erros — **pendente de execução e comprovação** (ver
-      seção 2)
-- [ ] Hospedagem pública — **pendente de publicação** (ver seção 2)
