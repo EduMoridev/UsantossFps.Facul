@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedir Orçamento — FRAMELAB</title>
+<meta name="description" content="Peça um orçamento gratuito de otimização de PC para jogos com a FRAMELAB.">
+</head>
+<body>
+<a href="#conteudo-principal">Pular para o conteúdo</a>
+
+<header>
+<p><strong><a href="index.html">FRAMELAB</a></strong> — Otimização de Performance para Jogos</p>
+<nav aria-label="Navegação principal">
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="sobre.html">Quem Faz</a></li>
+<li><a href="servicos.html">Serviços</a></li>
+<li><a href="planos.html">Planos e Preços</a></li>
+<li><a href="resultados.html">Resultados</a></li>
+<li><a href="depoimentos.html">Depoimentos</a></li>
+<li><a href="como-funciona.html">Como Funciona</a></li>
+<li><a href="faq.html">Perguntas Frequentes</a></li>
+<li><a href="contato.html">Contato</a></li>
+<li><a href="orcamento.html" aria-current="page">Pedir Orçamento</a></li>
+</ul>
+</nav>
+</header>
+
+<main id="conteudo-principal">
+
+<section aria-labelledby="orcamento-titulo">
+<h1 id="orcamento-titulo">Pedir orçamento gratuito</h1>
+<p>Preencha os dados do seu setup e do que você precisa. Respondemos com uma avaliação inicial sem custo, geralmente em até 24 horas.</p>
+
+<form action="#" method="post">
+<fieldset>
+<legend>Seus dados</legend>
+
+<p>
+<label for="orc-nome">Nome completo <abbr title="obrigatório">*</abbr></label><br>
+<input type="text" id="orc-nome" name="nome" required minlength="3" maxlength="80"
+pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Digite apenas letras e espaços" placeholder="Seu nome completo">
+</p>
+
+<p>
+<label for="orc-email">E-mail <abbr title="obrigatório">*</abbr></label><br>
+<input type="email" id="orc-email" name="email" required placeholder="voce@exemplo.com">
+</p>
+
+<p>
+<label for="orc-telefone">Telefone / WhatsApp <abbr title="obrigatório">*</abbr></label><br>
+<input type="tel" id="orc-telefone" name="telefone" required
+pattern="\(?\d{2}\)?\s?9?\d{4}-?\d{4}" title="Formato esperado: (11) 91234-5678" placeholder="(11) 91234-5678">
+</p>
+</fieldset>
+
+<fieldset>
+<legend>O que você precisa</legend>
+
+<p>
+<label for="orc-servico">Serviço de interesse <abbr title="obrigatório">*</abbr></label><br>
+<select id="orc-servico" name="servico" required>
+<option value="">Selecione...</option>
+<option value="fps">Otimização de FPS</option>
+<option value="latencia">Redução de ping e latência</option>
+<option value="limpeza">Limpeza e manutenção de sistema</option>
+<option value="drivers">Atualização de drivers e BIOS</option>
+<option value="upgrade">Consultoria de upgrade</option>
+<option value="nao-sei">Não sei, quero uma recomendação</option>
+</select>
+</p>
+
+<p>
+<label for="orc-plano">Plano de interesse</label><br>
+<select id="orc-plano" name="plano">
+<option value="">Ainda não sei / prefiro avulso</option>
+<option value="start">Start</option>
+<option value="pro">Pro</option>
+<option value="elite">Elite</option>
+</select>
+</p>
+
+<p>
+<label for="orc-specs">Especificações do PC <abbr title="obrigatório">*</abbr></label><br>
+<textarea id="orc-specs" name="especificacoes" required minlength="10" maxlength="500" rows="5" cols="40"
+placeholder="Ex.: Ryzen 5 5600, RTX 3060, 16GB RAM, Windows 11"></textarea>
+</p>
+
+<p>
+<label for="orc-jogos">Principais jogos</label><br>
+<input type="text" id="orc-jogos" name="jogos" maxlength="120" placeholder="Ex.: Valorant, CS2, Fortnite">
+</p>
+
+<fieldset>
+<legend>Urgência</legend>
+<p>
+<input type="radio" id="urg-normal" name="urgencia" value="normal" required checked>
+<label for="urg-normal">Sem pressa</label>
+</p>
+<p>
+<input type="radio" id="urg-semana" name="urgencia" value="semana">
+<label for="urg-semana">Esta semana</label>
+</p>
+<p>
+<input type="radio" id="urg-hoje" name="urgencia" value="hoje">
+<label for="urg-hoje">O mais rápido possível</label>
+</p>
+</fieldset>
+
+<p>
+<label for="orc-orcamento">Orçamento disponível (R$)</label><br>
+<input type="number" id="orc-orcamento" name="orcamento_disponivel" min="50" max="1000" step="10" placeholder="Ex.: 150">
+</p>
+
+<p>
+<label for="orc-print">Print do desempenho atual (opcional)</label><br>
+<input type="file" id="orc-print" name="print_desempenho" accept="image/png, image/jpeg">
+</p>
+
+<p>
+<input type="checkbox" id="orc-termos" name="termos" value="aceito" required>
+<label for="orc-termos">Li e concordo com a política de privacidade e os termos de uso <abbr title="obrigatório">*</abbr></label>
+</p>
+</fieldset>
+
+<p><button type="submit">Enviar pedido de orçamento</button></p>
+</form>
+</section>
+
+</main>
+
+<footer>
+<address>
+FRAMELAB Otimização de Performance<br>
+E-mail: <a href="mailto:contato@framelab.com.br">contato@framelab.com.br</a><br>
+WhatsApp: <a href="https://wa.me/5511999999999">(11) 99999-9999</a>
+</address>
+<nav aria-label="Links institucionais">
+<ul>
+<li><a href="sobre.html">Quem Faz</a></li>
+<li><a href="faq.html">Perguntas Frequentes</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</nav>
+<p><small>&copy; <time datetime="2026">2026</time> FRAMELAB Otimização de Performance. Todos os direitos reservados.</small></p>
+</footer>
+
+</body>
+</html>
