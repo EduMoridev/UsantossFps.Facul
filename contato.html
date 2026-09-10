@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — FRAMELAB</title>
+<meta name="description" content="Fale com a equipe FRAMELAB através do formulário de contato.">
+</head>
+<body>
+<a href="#conteudo-principal">Pular para o conteúdo</a>
+
+<header>
+<p><strong><a href="index.html">FRAMELAB</a></strong> — Otimização de Performance para Jogos</p>
+<nav aria-label="Navegação principal">
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="sobre.html">Quem Faz</a></li>
+<li><a href="servicos.html">Serviços</a></li>
+<li><a href="planos.html">Planos e Preços</a></li>
+<li><a href="resultados.html">Resultados</a></li>
+<li><a href="depoimentos.html">Depoimentos</a></li>
+<li><a href="como-funciona.html">Como Funciona</a></li>
+<li><a href="faq.html">Perguntas Frequentes</a></li>
+<li><a href="contato.html" aria-current="page">Contato</a></li>
+<li><a href="orcamento.html">Pedir Orçamento</a></li>
+</ul>
+</nav>
+</header>
+
+<main id="conteudo-principal">
+
+<section aria-labelledby="contato-titulo">
+<h1 id="contato-titulo">Fale com a gente</h1>
+<p>Dúvidas gerais, parcerias ou suporte: preencha o formulário abaixo. Para pedir um orçamento de serviço, use a página de <a href="orcamento.html">Orçamento</a>.</p>
+
+<form action="#" method="post">
+<fieldset>
+<legend>Seus dados</legend>
+
+<p>
+<label for="nome">Nome completo <abbr title="obrigatório">*</abbr></label><br>
+<input type="text" id="nome" name="nome" required minlength="3" maxlength="80"
+pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Digite apenas letras e espaços, com pelo menos 3 caracteres" placeholder="Seu nome completo">
+</p>
+
+<p>
+<label for="email">E-mail <abbr title="obrigatório">*</abbr></label><br>
+<input type="email" id="email" name="email" required placeholder="voce@exemplo.com">
+</p>
+
+<p>
+<label for="telefone">Telefone / WhatsApp <abbr title="obrigatório">*</abbr></label><br>
+<input type="tel" id="telefone" name="telefone" required
+pattern="\(?\d{2}\)?\s?9?\d{4}-?\d{4}" title="Formato esperado: (11) 91234-5678" placeholder="(11) 91234-5678">
+</p>
+</fieldset>
+
+<fieldset>
+<legend>Sua mensagem</legend>
+
+<p>
+<label for="assunto">Assunto <abbr title="obrigatório">*</abbr></label><br>
+<select id="assunto" name="assunto" required>
+<option value="">Selecione...</option>
+<option value="suporte">Suporte a atendimento já feito</option>
+<option value="duvida-planos">Dúvida sobre planos</option>
+<option value="parceria">Proposta de parceria</option>
+<option value="outro">Outro assunto</option>
+</select>
+</p>
+
+<p>
+<label for="mensagem">Mensagem <abbr title="obrigatório">*</abbr></label><br>
+<textarea id="mensagem" name="mensagem" required minlength="20" maxlength="500" rows="6" cols="40"
+placeholder="Escreva sua mensagem (mínimo 20 caracteres)"></textarea>
+</p>
+
+<fieldset>
+<legend>Como prefere ser contatado? <abbr title="obrigatório">*</abbr></legend>
+<p>
+<input type="radio" id="pref-whatsapp" name="preferencia" value="whatsapp" required>
+<label for="pref-whatsapp">WhatsApp</label>
+</p>
+<p>
+<input type="radio" id="pref-email" name="preferencia" value="email">
+<label for="pref-email">E-mail</label>
+</p>
+<p>
+<input type="radio" id="pref-discord" name="preferencia" value="discord">
+<label for="pref-discord">Discord</label>
+</p>
+</fieldset>
+
+<p>
+<label for="horario">Melhor horário para contato</label><br>
+<input type="time" id="horario" name="horario">
+</p>
+
+<p>
+<input type="checkbox" id="termos" name="termos" value="aceito" required>
+<label for="termos">Li e concordo com a política de privacidade <abbr title="obrigatório">*</abbr></label>
+</p>
+</fieldset>
+
+<p><button type="submit">Enviar mensagem</button></p>
+</form>
+</section>
+
+<section aria-labelledby="outros-canais-titulo">
+<h2 id="outros-canais-titulo">Outros canais</h2>
+<p>WhatsApp: <a href="https://wa.me/5511999999999">(11) 99999-9999</a> · E-mail: <a href="mailto:contato@framelab.com.br">contato@framelab.com.br</a></p>
+</section>
+
+</main>
+
+<footer>
+<address>
+FRAMELAB Otimização de Performance<br>
+E-mail: <a href="mailto:contato@framelab.com.br">contato@framelab.com.br</a><br>
+WhatsApp: <a href="https://wa.me/5511999999999">(11) 99999-9999</a>
+</address>
+<nav aria-label="Links institucionais">
+<ul>
+<li><a href="sobre.html">Quem Faz</a></li>
+<li><a href="faq.html">Perguntas Frequentes</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</nav>
+<p><small>&copy; <time datetime="2026">2026</time> FRAMELAB Otimização de Performance. Todos os direitos reservados.</small></p>
+</footer>
+
+</body>
+</html>
